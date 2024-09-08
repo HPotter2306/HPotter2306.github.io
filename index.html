@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brightblog</title>
+</head>
+<body> 
+    <header>
+        <h1>BrightBlog</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About us</a>
+                </li>
+                <li>
+                    <a href="">Help</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article> 
+        <hgroup> 
+            <h2> hello and welcome to eggs and bakey </h2>
+            <h3> this is a blog featuring where we track and share our favourite recipes! </h3>
+        </hgroup>
+    <main>
+        <p> loads of waffle about cooking and stuff
+        </p>
+        <p>
+            <blockquote cite="https://www.hairybikers.com/"> 
+                "i love the Hairy Bikers" - <cite>Heather, 2024</cite>
+            </blockquote>
+        </p>
+        <section>
+            <h2> Sign up for more recipes!!!</h2>
+            <form action="" method="POST">
+                <label for="first_name">First Name:</label><br>
+                <input type="text" id="first_name" name="first_name" required><br>
+    
+                <label for="last_name">Last Name:</label><br>
+                <input type="text" id="last_name" name="last_name" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" required><br>
+                
+                <label for="password">Password:</label><br>
+                <input type="text" id="password" name="password" required><br>
+    
+                <label for="country">Country:</label><br>
+                <select id="country" name="country">
+                    <option value="england">England</option>
+                    <option value="scotland">Scotland</option>
+                    <option value="wales">Wales</option>
+                    <option value="northern_ireland">Northern Ireland</option>
+                </select><br><br>
+    
+                <label for="bio">Biography:</label><br>
+                <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+    
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to newsletter</label><br><br>
+    
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <hgroup>
+        <h2> Author: Heather Potter </h2>
+        <h3> Last posted: 21-08-2024 </h3>
+        <a href="http://127.0.0.1:5500/Day_1/index.html" target="_blank">http://127.0.0.1:5500/Day_1/index.html</a>  
+        </hgroup>
+    </footer>
+    </article>
+    <aside>
+        <section>
+            <h2>Filter by Month</h2>
+            <nav>
+            <ul>
+            <li><a href="/blog/month/january">January</a></li>
+            <li><a href="/blog/month/february">February</a></li>
+            <li><a href="/blog/month/march">March</a></li>
+            </ul>
+            </nav>
+            </section>
+            <section>
+            <h2>Filter by Category</h2>
+            <nav>
+            <ul>
+            <li><a href="/blog/bakes">Bakes!</a></li>
+            <li><a href="/blog/drinks">Drinks!</a></li>
+            <li><a href="/blog/Winter warmers">Winter Warmers!</a></li>
+            <li><a href="/blog/Favourites">Favourites!</a></li>
+            </ul>
+            </nav>
+            </section>
+    </aside>
+    <footer>
+        <h1> Eggs and Bakey Site </h1>
+        <div id="footer-container">
+            <section>
+                <h2> Our Site </h2>
+                <nav>
+                    <ul>
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <h2> Important Files </h2>
+                <nav>
+                    <ul>
+                        <li><a href="/">Privacy Policy</a></li>
+                        <li><a href="/">Terms and Conditions</a></li>
+                        <li><a href="/">Cookie Policy</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
